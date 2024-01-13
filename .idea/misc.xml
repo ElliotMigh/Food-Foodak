@@ -7,6 +7,9 @@
         <entry key="app/src/main/res/drawable/ic_check.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/ic_check_box_outline.xml" value="0.137" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/layout/fragment_splash_about1.xml" value="0.2359375" />
+        <entry key="app/src/main/res/layout/fragment_splash_about2.xml" value="0.23697916666666666" />
+        <entry key="app/src/main/res/layout/fragment_splash_about3.xml" value="0.23697916666666666" />
       </map>
     </option>
   </component>

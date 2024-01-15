@@ -10,17 +10,12 @@ import com.example.foodfoodak.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     //create binding:
-    lateinit var binding:ActivityMainBinding
+    lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        showAboutSlide()
-    }
-    private fun showAboutSlide() {
-        val myAdapter = viewPagerAdapter(this)
-        binding.viewPageMain.adapter = myAdapter
     }
 }

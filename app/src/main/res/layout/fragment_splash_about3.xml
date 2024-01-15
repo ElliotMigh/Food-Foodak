@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animatio_about3foodfoodak" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:padding="4dp"
+        android:textSize = "17sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="اگر هنگام خرید کردن از سوپر مارکت یا فروشگاه یادت میره چه وسایلی لازم داری اپلیکیشن فودفودک بهت این امکان رو میده که موارد مورد نیازت رو قبل خرید یادداشت کنی"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationWelcome" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

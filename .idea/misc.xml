@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/checkbox.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/custom_shape_for_button_fragment_about_3.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/ic_check.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/ic_check_box_outline.xml" value="0.137" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22291666666666668" />

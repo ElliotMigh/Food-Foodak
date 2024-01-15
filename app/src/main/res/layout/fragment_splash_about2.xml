@@ -19,14 +19,15 @@
         app:lottie_rawRes="@raw/animation_about2_foodfoodak" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtAbout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
+        android:alpha="0"
         android:padding="4dp"
-        android:textSize = "17sp"
         android:text="راستی ما در اپلیکیشن فودفودک برای شما هر غذایی که به ذهنمون رسید و برای شما قرار دادیم که شما از دستور پخت و مواد مورد نیاز برای پختن غذاهای خود استفاده کنید.از کیک و نوشیدنی و دسر و غذاهای فرنگی گرفته تا ... "
         android:textAlignment="center"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/animationWelcome" />

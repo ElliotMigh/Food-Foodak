@@ -19,12 +19,13 @@
         app:lottie_rawRes="@raw/animation_about1foodfoodak" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtAbout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
         android:padding="4dp"
         android:textSize = "17sp"
+        android:alpha="0"
         android:textAlignment="center"
         android:text="تاحالا شده برات پیش بیاد که داخل یخچال خونت کلی وسیله برای آشپزی داشته باشی ولی ندونی چی درست کنی؟! برای مثال تخم مرغ داری ولی فقط به فکر املت درست کردنی. از الان باید بگم که دیگه نگران نباش چون فودفودک خودش بهت پیشنهاد میده با وسایل داخل یخچال چه چیز هایی و میتونی درست کنی"
         app:layout_constraintEnd_toEndOf="parent"

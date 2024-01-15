@@ -19,11 +19,12 @@
         app:lottie_rawRes="@raw/animatio_about3foodfoodak" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtAbout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
         android:padding="4dp"
+        android:alpha="0"
         android:textSize = "17sp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +54,7 @@
         app:layout_constraintGuide_percent="0.90" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/button"
+        android:id="@+id/btnGoToActivityHome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="بزن بریم"
